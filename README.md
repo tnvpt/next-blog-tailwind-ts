@@ -37,14 +37,7 @@ Feature request? Check the past discussions to see if it has been brought up pre
 - [astrosaurus.me](https://astrosaurus.me/) - Ephraim Atta-Duncan's Personal Blog
 - [dhanrajsp.me](https://dhanrajsp.me/) - Dhanraj's personal site and blog.
 - [blog.r00ks.io](https://blog.r00ks.io/) - Austin Rooks's personal blog ([source code](https://github.com/Austionian/blog.r00ks)).
-- [honghong.me](https://honghong.me) - Tszhong's personal website ([source code](https://github.com/tszhong0411/home))
 - [alfoncode.com](https://alfoncode.com) - Alfonso García's personar website. Customized design ([source code](https://github.com/alfoncode/personal-web))
-- [marceloformentao.dev](https://marceloformentao.dev) - Marcelo Formentão personal website ([source code](https://github.com/marceloavf/marceloformentao.dev)).
-- [abiraja.com](https://www.abiraja.com/) - with a [runnable JS code snippet component!](https://www.abiraja.com/blog/querying-solana-blockchain)
-- [einargudni.com](https://www.einargudni.com) - with a customized theme, command pallette and more ([source code](https://github.com/einargudnig/einargudni.com))
-- [bpiggin.com](https://www.bpiggin.com) - Ben Piggin's personal blog
-- [maqib.cn](https://maqib.cn) - A blog of Chinese front-end developers 狂奔小马的博客 ([源码](https://github.com/maqi1520/nextjs-tailwind-blog))
-- [ambilena.com](https://ambilena.com/) - Electronic Music Blog & imprint for upcoming musicians.
 
 Using the template? Feel free to create a PR and add your blog to this list.
 
@@ -74,7 +67,7 @@ I wanted it to be nearly as feature-rich as popular blogging templates like [bea
 - Blog templates
 - TOC component
 - Support for nested routing of blog posts
-- Newsletter component with support for mailchimp, buttondown, convertkit, klaviyo and revue
+- Newsletter component with support for mailchimp, buttondown, convertkit and klaviyo
 - Supports [giscus](https://github.com/laymonage/giscus), [utterances](https://github.com/utterance/utterances) or disqus
 - Projects page
 - Preconfigured security headers
@@ -91,13 +84,7 @@ I wanted it to be nearly as feature-rich as popular blogging templates like [bea
 
 ## Quick Start Guide
 
-1. TypeScript and Contentlayer (alpha)
-
-```
-npx degit timlrx/tailwind-nextjs-starter-blog#contentlayer
-```
-
-or JS (official support)
+1. JS (official support)
 
 ```bash
 npx degit https://github.com/timlrx/tailwind-nextjs-starter-blog.git
@@ -178,7 +165,7 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 
 Frontmatter follows [Hugo's standards](https://gohugo.io/content-management/front-matter/).
 
-Currently 7 fields are supported.
+Currently 10 fields are supported.
 
 ```
 title (required)
